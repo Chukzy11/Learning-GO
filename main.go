@@ -50,6 +50,6 @@ func root(w http.ResponseWriter, r *http.Request) {
 }
 
 func home(c *gin.Context) {
-	// GOOD STUFF
 	c.JSON(http.StatusOK, "welcome to my home page")
+	// testing new branch
 }
